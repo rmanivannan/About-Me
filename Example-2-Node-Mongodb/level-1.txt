@@ -1,0 +1,4 @@
+1) Install node js and mongo db 
+2) Do the neccessry mongodb setup
+3) add node module:mongodb (npm install mongodb)
+4) run level-1.js (node level-1.js)
