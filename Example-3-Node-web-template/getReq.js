@@ -9,22 +9,17 @@ var app = express();
 //setting the port
 app.set('port', process.env.PORT || 3000); 
 
-//
-app.set('views', __dirname + '/basetemplate');
-app.set('view engine', 'ejs');
-
 //setting up the static conten folder
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'basetemplate')));
 
+//creating view folder path
+app.set('views', __dirname + '/basetemplate');
+app.set('view engine', 'ejs');
 app.get('/',function(req, res) {
-  res.render('index', 
-    {
-      is_secure  : 'http',
-      server_url : 'http'+'://' + req.header('host')
-    });
+  //respond index.ejs on the request of "http://localhost:3000"
+  res.render('index');
 });
-
 
 //create the server
 http.createServer(app).listen(app.get('port'), function(){

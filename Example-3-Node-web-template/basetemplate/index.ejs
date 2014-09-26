@@ -6,18 +6,6 @@
 	</head>
 	<body>
     <h1>My page</h1>
-    <p>My page template</p>
-    <div id="ajaxContainer"></div>
-    <script type="text/javascript">
-    $.ajax({
-      url : '/mani',
-      data:{a:1,b:2},
-      type:'post',
-      success:function (res) {
-        console.log(res);
-        $('#ajaxContainer').html(JSON.stringify(res))
-      }
-    });
-    </script>
+    <p>My page template</p> 
 	</body>
 </html>
