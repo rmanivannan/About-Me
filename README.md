@@ -8,3 +8,7 @@ http://rmanivannan.github.io/demos/example-1-backbone-require-underscore/
 krithi changes
 
 one more chage from krithi
+mani changes
+krithi changes
+
+one more mani changes
