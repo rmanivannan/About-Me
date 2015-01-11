@@ -1,4 +1,4 @@
-## Not This Repo yet ti be stable 
+##This Repo yet ti be stable 
 
 ## Haha i'm just learning some stuff, just documentating for my reference
 
