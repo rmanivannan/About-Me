@@ -1,6 +1,6 @@
 ## Haha i'm just learning some stuff, just documentating for my reference
 
-## Better avoid watching this NOW!!! 
+## Better avoid watching this Page NOW!!! 
 
 ## My learning topics
 
